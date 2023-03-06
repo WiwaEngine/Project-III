@@ -6,3 +6,10 @@ F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\intermediates\Debug\Wiw
 F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\Wiwa-AppAssembly.dll
 F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\Wiwa-AppAssembly.pdb
 F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\Wiwa-ScriptCore.pdb
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Debug\Wiwa-AppAssembly.csproj.AssemblyReference.cache
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Debug\Wiwa-AppAssembly.csproj.CoreCompileInputs.cache
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Debug\Wiwa-AppAssembly.csproj.CopyComplete
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Debug\Wiwa-AppAssembly.dll
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Debug\Wiwa-AppAssembly.pdb
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\Wiwa-AppAssembly.dll
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\Wiwa-AppAssembly.pdb

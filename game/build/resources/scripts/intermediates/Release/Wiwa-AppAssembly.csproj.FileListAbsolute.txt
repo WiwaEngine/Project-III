@@ -1,0 +1,8 @@
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.AssemblyReference.cache
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.CoreCompileInputs.cache
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.CopyComplete
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\intermediates\Release\Wiwa-AppAssembly.dll
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\intermediates\Release\Wiwa-AppAssembly.pdb
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\Wiwa-AppAssembly.dll
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\Wiwa-AppAssembly.pdb
+F:\TTC\Q6\ProjectIII\WiwaEngine\Editor\resources\scripts\Wiwa-ScriptCore.pdb

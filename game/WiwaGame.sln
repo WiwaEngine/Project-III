@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WiwaGame", "WiwaGame.vcxproj", "{57534F75-4320-AA80-6C39-98285865DF0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Dist|x64 = Dist|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57534F75-4320-AA80-6C39-98285865DF0E}.Debug|x64.ActiveCfg = Debug|x64
+		{57534F75-4320-AA80-6C39-98285865DF0E}.Debug|x64.Build.0 = Debug|x64
+		{57534F75-4320-AA80-6C39-98285865DF0E}.Dist|x64.ActiveCfg = Dist|x64
+		{57534F75-4320-AA80-6C39-98285865DF0E}.Dist|x64.Build.0 = Dist|x64
+		{57534F75-4320-AA80-6C39-98285865DF0E}.Release|x64.ActiveCfg = Release|x64
+		{57534F75-4320-AA80-6C39-98285865DF0E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

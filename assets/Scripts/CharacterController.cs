@@ -59,7 +59,7 @@ namespace Game
                 if (System.Math.Abs(shootX) > 0.5f || System.Math.Abs(shootY) > 0.5f)
                 {
                     // Shoot sound
-
+                    PlayAudioEvent("player_shoot");
                     Vector3 bulletDir = new Vector3(shootX, 0, shootY);
                     SpawnBullet(ref character, new Vector3(0, 0, 0), bulletDir, 0);
                 }
@@ -94,18 +94,22 @@ namespace Game
 
             if (Input.IsKeyDown(KeyCode.W))
             {
+                PlayAudioEvent("player_walk");
                 direction += forward * translation;
             }
             else if (Input.IsKeyDown(KeyCode.S))
             {
+                PlayAudioEvent("player_walk");
                 direction -= forward * translation;
             }
             if (Input.IsKeyDown(KeyCode.A))
             {
+                PlayAudioEvent("player_walk");
                 direction += right * translation;
             }
             else if (Input.IsKeyDown(KeyCode.D))
             {
+                PlayAudioEvent("player_walk");
                 direction -= right * translation;
             }
 

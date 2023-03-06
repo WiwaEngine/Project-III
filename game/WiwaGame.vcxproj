@@ -79,7 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
@@ -90,7 +90,7 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -106,7 +106,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -120,7 +120,7 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -138,7 +138,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>None</DebugInformationFormat>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -152,7 +152,7 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_DIST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Link>
       <SubSystem>Console</SubSystem>

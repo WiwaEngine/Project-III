@@ -79,7 +79,7 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WI_PLATFORM_WINDOWS;WI_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\..\Wiwa\vendor\spdlog\include;..\..\Wiwa\vendor\imgui;..\..\Wiwa\vendor\glm;..\..\Wiwa\src;..\..\Wiwa\vendor\Optick\include;..\..\Wiwa\vendor\imguizmo;..\..\Wiwa\vendor\filewatch;..\..\Wiwa\vendor\Wwise\include;..\..\Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>Wiwa\vendor\spdlog\include;Wiwa\vendor\imgui;Wiwa\vendor\glm;Wiwa\src;Wiwa\vendor\Optick\include;Wiwa\vendor\imguizmo;Wiwa\vendor\filewatch;Wiwa\vendor\Wwise\include;Wiwa\vendor\bullet\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>

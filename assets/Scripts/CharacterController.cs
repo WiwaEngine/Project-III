@@ -10,7 +10,12 @@ namespace Game
     {
         public float velocity;
         public float camYOffset;
+        public float camXOffset;
+        public float camZOffset;
+
+        public float camXAngle;
         public float camYAngle;
+        public float camZAngle;
 
         public float fireInterval;
         public float fireTimer;
@@ -61,6 +66,13 @@ namespace Game
                     // Shoot sound
                     PlayAudioEvent("player_shoot");
                     Vector3 bulletDir = new Vector3(shootX, 0, shootY);
+                    SpawnBullet(ref character, new Vector3(0, 0, 0), bulletDir, 0);
+                }
+                else if (Input.IsKeyDown(KeyCode.Space))
+                {
+                    // Shoot sound
+                    PlayAudioEvent("player_shoot");
+                    Vector3 bulletDir = new Vector3(0, 0, 1);
                     SpawnBullet(ref character, new Vector3(0, 0, 0), bulletDir, 0);
                 }
             }
@@ -122,9 +134,11 @@ namespace Game
 
             Vector3 campos = transform.Position;
             campos.y = transform.Position.y + character.camYOffset;
+            campos.x = transform.Position.x + character.camXOffset;
+            campos.z = transform.Position.z + character.camZOffset;
 
             CameraManager.SetPosition(cam_id, campos);
-            CameraManager.SetCameraRotation(cam_id, new Vector3(transform.LocalRotation.y, character.camYAngle, 0));
+            CameraManager.SetCameraRotation(cam_id, new Vector3(character.camXAngle, character.camYAngle, 0));
         }
 
 

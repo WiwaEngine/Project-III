@@ -137,7 +137,7 @@ namespace Game
             // Take components of entity
             ref Transform3D newEntityTransform = ref GetComponent<Transform3D>(entity);
             ref BulletComponent bc = ref AddComponent<BulletComponent>(entity);
-            AddMesh(entity, "bullet", "assets/03_mat_addelements.wimaterial");
+            AddMesh(entity, "Models/bullet", "assets/Models/03_mat_addelements.wimaterial");
 
             ref Rigidbody rb = ref AddComponent<Rigidbody>(entity);
             rb.scalingOffset.x = 1;

@@ -16,3 +16,10 @@ C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.c
 C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.CoreCompileInputs.cache
 C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.dll
 C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.pdb
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.AssemblyReference.cache
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.CoreCompileInputs.cache
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.CopyComplete
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.dll
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.pdb
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\Wiwa-AppAssembly.dll
+C:\Users\ali_s\Documents\GitHub\Project-III\resources\scripts\Wiwa-AppAssembly.pdb

@@ -12,3 +12,7 @@ F:\TTC\Q6\ProjectIII\Project-III\resources\scripts\intermediates\Release\Wiwa-Ap
 F:\TTC\Q6\ProjectIII\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.pdb
 F:\TTC\Q6\ProjectIII\Project-III\resources\scripts\Wiwa-AppAssembly.dll
 F:\TTC\Q6\ProjectIII\Project-III\resources\scripts\Wiwa-AppAssembly.pdb
+C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.AssemblyReference.cache
+C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.csproj.CoreCompileInputs.cache
+C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.dll
+C:\GitHub\Project-III\resources\scripts\intermediates\Release\Wiwa-AppAssembly.pdb

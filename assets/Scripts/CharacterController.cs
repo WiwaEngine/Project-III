@@ -133,12 +133,12 @@ namespace Game
             System.UInt64 cam_id = CameraManager.GetActiveCamera();
 
             Vector3 campos = transform.Position;
-            campos.y = transform.Position.y + character.camYOffset;
-            campos.x = transform.Position.x + character.camXOffset;
-            campos.z = transform.Position.z + character.camZOffset;
+            campos.y = transform.Position.y + character.camYOffset + 35;
+            campos.x = transform.Position.x + character.camXOffset + 0;
+            campos.z = transform.Position.z + character.camZOffset + 20;
 
             CameraManager.SetPosition(cam_id, campos);
-            CameraManager.SetCameraRotation(cam_id, new Vector3(character.camXAngle, character.camYAngle, 0));
+            CameraManager.SetCameraRotation(cam_id, new Vector3(character.camXAngle, - 70, 0));
         }
 
 
